@@ -1,11 +1,7 @@
 import pytest
 import selenium.webdriver
 
-options = selenium.webdriver.ChromeOptions()
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-
-driver = selenium.webdriver.Chrome(options=options)
+driver = selenium.webdriver.Chrome()
 base_url = 'https://www.saucedemo.com/'
 
 
