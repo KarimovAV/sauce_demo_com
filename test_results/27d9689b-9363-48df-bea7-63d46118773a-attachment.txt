@@ -1,0 +1,24 @@
+Start test
+Start test: test_end_to_end
+Current url: https://www.saucedemo.com/
+Input login: standard_user
+Input password: secret_sauce
+Clicked login button
+Check passed: (get value) Products == (need value) Products
+Current url: https://www.saucedemo.com/inventory.html
+Click product 1
+Click product 2
+Click cart
+Current url: https://www.saucedemo.com/cart.html
+Click button Checkout
+Current url: https://www.saucedemo.com/checkout-step-one.html
+Entered First Name: Aleksandr
+Entered Last Name: Nikolaevich
+Entered zip code: 23423423
+Clicked button Continue
+Current url: https://www.saucedemo.com/checkout-step-two.html
+Clicked button Finish
+Current url: https://www.saucedemo.com/checkout-complete.html
+Check passed: (get value) Thank you for your order! == (need value) Thank you for your order!
+End test: test_end_to_end
+Test end
